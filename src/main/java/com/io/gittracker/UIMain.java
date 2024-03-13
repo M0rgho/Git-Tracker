@@ -3,8 +3,8 @@ package com.io.gittracker;
 import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
-import org.springframework.stereotype.Component;
 import org.springframework.context.ApplicationListener;
+import org.springframework.stereotype.Component;
 
 @Component
 public class UIMain implements ApplicationListener<StageReadyEvent> {
