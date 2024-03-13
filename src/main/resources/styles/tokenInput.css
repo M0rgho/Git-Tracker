@@ -1,5 +1,7 @@
 .header-section {
     -fx-background-color: #f0f0f0;
+    -fx-pref-width: 600px;
+    -fx-pref-height: 400px;
 }
 
 VBox {
@@ -9,7 +11,6 @@ VBox {
 }
 
 Label {
-    -fx-pref-width: 145px;
     -fx-font-size: 14px;
     -fx-text-fill: #333;
 }

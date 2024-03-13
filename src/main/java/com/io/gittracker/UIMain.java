@@ -30,7 +30,6 @@ public class UIMain implements ApplicationListener<StageReadyEvent> {
         stage.setScene(scene);
         stage.show();
     }
-
     private Scene loadTokenInput() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/tokenInput.fxml"));
         fxmlLoader.setControllerFactory(applicationContext::getBean);
