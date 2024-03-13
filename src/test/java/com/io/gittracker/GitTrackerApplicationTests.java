@@ -8,4 +8,10 @@ class GitTrackerApplicationTests {
 
     @Test
     void contextLoads() {}
+
+
+    @Test
+    void shouldPass {
+        System.out.println("passed");
+    }
 }
