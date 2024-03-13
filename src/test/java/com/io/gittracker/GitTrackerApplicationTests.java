@@ -8,4 +8,11 @@ class GitTrackerApplicationTests {
 
     @Test
     void contextLoads() {}
+
+    @Test
+    void failTest {
+        System.out.println("EPIC");
+    }
+
+
 }
