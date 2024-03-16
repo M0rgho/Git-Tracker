@@ -11,7 +11,7 @@ class GitTrackerApplicationTests {
 
 
     @Test
-    void shouldPass {
+    void shouldPass() {
         System.out.println("passed");
         System.out.println("passed");
     }
